@@ -1,0 +1,10 @@
+
+let runHtmlMinify = document.querySelector('.runHtmlMinify')
+let runCssMinify = document.querySelector('.runCssMinify')
+let runJsMinify = document.querySelector('.runJsMinify')
+let changeSection = document.querySelectorAll('#changeSection')
+let htmlMinifySection = document.querySelector('#htmlMinifyEditor')
+let cssMinifySection = document.querySelector('#cssMinifyEditor')
+let jsMinifySection = document.querySelector('#jsMinifyEditor')
+let sectionTog = document.querySelectorAll('.sectionTog')
+let notifyMinify = document.querySelector('.notifyMinify')
