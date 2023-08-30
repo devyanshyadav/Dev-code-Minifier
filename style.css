@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap');
 
 :root {
     --Color1: #202040;
@@ -202,14 +202,21 @@ textarea {
 }
 
 .DevarenaLogo {
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    gap: 5px;
+    font-size: 25px;
     background: linear-gradient(to right, #4433ff, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    left: 10px;
+    font-weight: 400;
+}
+
+.DevarenaLogo img {
+    width: 30px;
 }
 
 
