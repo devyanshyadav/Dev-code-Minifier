@@ -182,9 +182,8 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
     font-size: 35px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Ubuntu', sans-serif;
     background: linear-gradient(to right, #4433ff, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
