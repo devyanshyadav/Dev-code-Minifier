@@ -204,15 +204,23 @@ textarea {
 }
 
 .DevarenaLogo {
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    gap: 5px;
+    font-size: 25px;
     background: linear-gradient(to right, #4433ff, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: absolute;
-    left: 10px;
+    font-weight: 400;
 }
+
+.DevarenaLogo img {
+    width: 30px;
+}
+
 
 
 @media(max-width:700px) {
