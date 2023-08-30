@@ -201,7 +201,7 @@ textarea {
     right: 20px;
 }
 
-.DevarenaLogo {
+.DevvarenaLogo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,12 +213,16 @@ textarea {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 400;
+    user-select: none;
 }
-
-.DevarenaLogo img {
+.DevvarenaLogo img {
     width: 30px;
 }
-
+.DevvarenaLogo:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 0.3s;
+}
 
 @media(max-width:700px) {
 
