@@ -173,7 +173,6 @@ textarea {
     right: 7px;
     left: 7px;
     bottom: 7px;
-
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4px);
@@ -182,9 +181,8 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
     font-size: 35px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Ubuntu', sans-serif;
     background: linear-gradient(to right, #4433ff, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
